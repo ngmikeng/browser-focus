@@ -1,0 +1,20 @@
+{
+  "name": "browser-focus",
+  "description": "Focus on a zone of any video (e.g. just the subtitles) in an always-on-top mini window.",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "compile": "tsc --noEmit",
+    "test": "vitest run",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0",
+    "wxt": "^0.21.5"
+  }
+}
